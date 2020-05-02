@@ -22,10 +22,10 @@ messages:
     dm: "Veuillez m'envoyer votre clé API ou envoyer annuler pour annuler l'enregistrement."
     cancelled: 'Vous avez annulé votre inscription à SRVControl'
     success: "L'inscription a réussi dans la guilde '{guild}'."
-    invalid: "Vous avez spécifié une clé API non valide.\nAvez-vous correctement défini l'URL de votre PANEL sur le tableau de bord ?"
+    invalid: "Vous avez spécifié une clé API non valide.\nAvez-vous correctement défini l'URL de votre panel sur le tableau de bord ?"
   
   unregister:
-    confirm: "Cela supprimera votre clé API Pterodactyl de SRVControl et vous ne pourrez PLUS exécuter aucune commande liée au contrôle.\n\nTapez `confirm` pour continuer ou `cancel` pour annuler dans les 60 prochaines secondes."
+    confirm: "Cela supprimera votre clé API Pterodactyl de SRVControl et vous ne pourrez plus exécuter aucune commande liée au contrôle.\n\nTapez `confirm` pour continuer ou `cancel` pour annuler dans les 60 prochaines secondes."
     success: 'Votre clé API a été supprimée de SRVControl avec succès.'
     
   power:
@@ -34,11 +34,11 @@ messages:
     current_state: 'État actuel'
     actions:
       start: "L'action d'alimentation `DÉMARRAGE` à été envoyé à `{id}` avec succès !"
-      stop: "L'action d'alimentation `ARRêT` à été envoyé à `{id} a reussi` avec succès !"
+      stop: "L'action d'alimentation `ARRÊT` à été envoyé à `{id} a reussi` avec succès !"
       restart: "L'action d'alimentation `REDÉMARRAGE` à été envoyé à `{id}` avec succès !"
       kill:
-        warning: "L'arrêt inattendu d'un serveur peut endommager le serveur.\n\nSay `confirm` pour procéder ou `cancel` pour annuler dans les 60 prochaines secondes."
-        success: "L'action d'alimentation `ARRêT DE FORCE` à été envoyé à `{id}` avec succès."
+        warning: "L'arrêt inattendu d'un serveur peut endommager le serveur.\n\nTapez `confirm` pour procéder ou `cancel` pour annuler dans les 60 prochaines secondes."
+        success: "L'action d'alimentation `ARRÊT DE FORCE` à été envoyé à `{id}` avec succès."
 
   send:
     need_cmd: 'Vous devez fournir une commande à envoyer au serveur.'
