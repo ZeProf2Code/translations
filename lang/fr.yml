@@ -30,7 +30,7 @@ messages:
     
   power:
     power: 'Alimentation: '
-    reactions: "Utilisez les réactions ci-dessous pour contrôler l'alimentation vos serveurs."
+    reactions: "Utilisez les réactions ci-dessous pour contrôler l'alimentation de vos serveurs."
     current_state: 'État actuel'
     actions:
       start: "L'action d'alimentation `DÉMARRAGE` à été envoyé à `{id}` avec succès !"
